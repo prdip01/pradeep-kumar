@@ -430,3 +430,41 @@ footer {
 footer p {
   text-align: center;
 }
+#certificate {
+  position: relative;
+  margin: 4rem 10rem;
+  height: auto;
+}
+
+.certificate-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.certificate-details {
+  border-radius: 1rem;
+  border: rgb(163, 163, 163) 0.1rem solid;
+  background: rgb(250, 250, 250);
+  width: 40%;
+  padding: 1rem;
+}
+
+.certificate-img {
+  width: 100%;
+  height: auto;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+
+.certificate-title {
+  font-size: 1.25rem;
+  text-align: center;
+  color: rgb(85, 85, 85);
+  margin-bottom: 0.5rem;
+}
+
+.certificate-description {
+  text-align: center;
+  color: rgb(85, 85, 85);
